@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Apercu';
+  src: url('apercu.woff2') format('woff2'), url('apercu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Europa';
+  src: url('europa.woff2') format('woff2'), url('europa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
