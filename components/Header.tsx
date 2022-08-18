@@ -32,7 +32,7 @@ const Header = () => (
           </ul>
         </nav>
 
-        <div>
+        <nav>
           <ul className="grid grid-flow-col gap-3">
             <li>
               <a href="#">EN$</a>
@@ -59,7 +59,7 @@ const Header = () => (
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
   </header>

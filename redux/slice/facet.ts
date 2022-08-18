@@ -12,9 +12,10 @@ const facetSlice = createSlice({
   name: 'facet',
   initialState: initialFacetState,
   reducers: {
-    setFacet: (state, action: PayloadAction<Facet>) => {
-      state = action.payload;
-    },
+    setFacet: (state, action: PayloadAction<Facet>) => ({
+      ...state,
+      ...action.payload,
+    }),
     updateFacet: (state, action: PayloadAction<Facet>) => {
       (Object.keys(action.payload) as Array<keyof Facet>).forEach((facet) => {
         Object.keys(state[facet]).forEach((key) => (state[facet][key] = 0));

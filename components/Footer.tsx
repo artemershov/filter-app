@@ -43,6 +43,7 @@ const Footer = () => (
           </li>
         </ul>
       </nav>
+
       <nav>
         <h3 className="mb-8">Find a store</h3>
         <ul>
@@ -66,6 +67,7 @@ const Footer = () => (
           </li>
         </ul>
       </nav>
+
       <nav>
         <h3 className="mb-8">Customer Service</h3>
         <ul>
@@ -95,6 +97,7 @@ const Footer = () => (
           </li>
         </ul>
       </nav>
+
       <nav>
         <h3 className="mb-8">Assistance</h3>
         <ul>
@@ -108,6 +111,7 @@ const Footer = () => (
             <a href="#">Live chat</a>
           </li>
         </ul>
+
         <h3 className="my-8">Legal & Cookies</h3>
         <ul>
           <li>
@@ -130,42 +134,42 @@ const Footer = () => (
 
     <div className="container max-w-[1320px] mx-auto py-12 flex justify-between font-europa tracking-[2px] text-xs uppercase">
       <Image src={logoBlack} alt="MIISTA" />
+
       <div>All right reserved</div>
-      <div>
-        <ul className="grid grid-flow-col gap-2">
-          <li className="mr-4">Social</li>
-          <li>
-            <a href="#">
-              <Image src={instagramIcon} alt="Instagram" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <Image src={pinterestIcon} alt="Pinterest" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <Image src={facebookIcon} alt="Facebook" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <Image src={twitterIcon} alt="Twitter" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <Image src={youtubeIcon} alt="Youtube" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <Image src={whatsappIcon} alt="Whatsapp" />
-            </a>
-          </li>
-        </ul>
-      </div>
+
+      <ul className="grid grid-flow-col gap-2">
+        <li className="mr-4">Social</li>
+        <li>
+          <a href="#">
+            <Image src={instagramIcon} alt="Instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Image src={pinterestIcon} alt="Pinterest" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Image src={facebookIcon} alt="Facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Image src={twitterIcon} alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Image src={youtubeIcon} alt="Youtube" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <Image src={whatsappIcon} alt="Whatsapp" />
+          </a>
+        </li>
+      </ul>
     </div>
   </footer>
 );

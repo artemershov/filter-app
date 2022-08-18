@@ -13,7 +13,7 @@ const NewsletterForm = () => {
 
   return (
     <div>
-      <div className="mb-10 font-europe text-center text-[75px] leading-none tracking-[7.5px] uppercase">
+      <div className="mb-10 font-europa text-center text-[75px] leading-none tracking-[7.5px] uppercase">
         Join our
         <br />
         newsletter

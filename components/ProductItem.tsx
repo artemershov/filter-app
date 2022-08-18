@@ -24,7 +24,7 @@ const ProductItem = ({ data, isBig }: ProductItemProps) => {
   return (
     <li className={classNames({ 'row-span-2 col-span-2': isBig })}>
       <div
-        className={classNames('relative mb-6 pb-[100%]', {
+        className={classNames('relative mb-6 pb-[100%] overflow-hidden', {
           'pt-[1.5rem]': isBig,
         })}
       >
